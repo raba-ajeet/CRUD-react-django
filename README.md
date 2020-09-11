@@ -5,6 +5,7 @@ By using Django Rest Framework , I have created the rest apis and  \
 then by using react I have fetched them and then I have builded the react app. \
 Then I have added the index.html and static folder in django project 
 this is My react repo (https://github.com/raba-ajeet/Crud-react)
+
 For Setup\
 Download/clone repo \
 Create and activate a virtual environment. \
