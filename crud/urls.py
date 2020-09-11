@@ -9,5 +9,5 @@ urlpatterns = [
     path('task_create/',views.task_create,name='task_create'),
     path('task_update/<int:task_pk>',views.task_update,name='task_update'),
     path('task_delete/<int:task_pk>',views.task_delete,name='task_delete'),
-    path('',TemplateView.as_view(template_name='index.html')),
+    path('',TemplateView.as_view(template_name='taskapp/index.html')),
 ]

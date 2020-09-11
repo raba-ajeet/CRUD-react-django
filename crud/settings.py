@@ -54,11 +54,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'crud.urls'
-
+# os.path.join(BASE_DIR,'crudfrontend/build/')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'crudfrontend/build/')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,5 +127,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'crudfrontend/build/static/')
+    os.path.join(BASE_DIR,'taskapp/static/taskapp/static')
 ]
